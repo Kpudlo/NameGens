@@ -6,7 +6,13 @@
   </head>
     <body>
       <script type="text/javascript">
-      document.write(generate_text('warrior'));
+          function more_random() {
+            document.write(generate_text('warrior'));
+          }
       </script>
+      <form method="get" onsubmit="return false;">
+      <p><textarea id="output" cols="100" rows="10" readonly></textarea></p>
+      <p><input type="button" value="Generate" onclick="more_random();" /></p>
+    </form>
     </body>
 </html>
