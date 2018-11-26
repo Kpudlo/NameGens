@@ -1,5 +1,5 @@
 gen_data['wolvan'] = [
-    'A {gender} wolvan named {first} {last}. <br />'
+    'A {gender} wolvan named {first} {last}.'
   ];
   gen_data['gender'] = [
     'male', 'female'
