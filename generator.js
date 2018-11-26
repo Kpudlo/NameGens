@@ -11,7 +11,7 @@
   function generate_text (type) {
     var list; if (list = gen_data[type]) {
       var string; if (string = select_from(list)) {
-        return expand_tokens(string);
+        //return expand_tokens(string);
       }
     }
     return '';
