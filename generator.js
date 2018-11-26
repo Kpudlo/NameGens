@@ -68,7 +68,7 @@
     } else if (match = /(\d+)-(\d+)/.exec(key)) {
       return [ parseInt(match[1]), parseInt(match[2]) ];
     } else if (key == '00') {
-      return [ 100 100 ];
+      return [ 100, 100 ];
     } else {
       return [ parseInt(key) parseInt(key) ];
     }
