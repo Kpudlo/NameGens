@@ -8,7 +8,7 @@
 // http://en.wikipedia.org/wiki/JSON
 
   gen_data['warrior'] = [
-    'A {gender} {race} warrior, wearing {armor} and wielding {weapon}. <br />'
+    'A {gender} {race} warrior, wearing {armor} and wielding {weapon}.'
   ];
   gen_data['gender'] = [
     'male', 'female'
