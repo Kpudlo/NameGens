@@ -70,7 +70,7 @@
     } else if (key == '00') {
       return [ 100, 100 ];
     } else {
-      return [ parseInt(key) parseInt(key) ];
+      return [ parseInt(key), parseInt(key) ];
     }
   }
 
